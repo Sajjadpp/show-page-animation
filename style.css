@@ -27,12 +27,13 @@ body{
     height: 400px;
     display: flex;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px gray;
 }
 .card{
     width: 300px;
     height: 400px;
     
-    background-color: #FFF;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,6 +78,13 @@ h4{
     padding: 5px;
     border: 3px solid rgb(135, 211, 255);
     border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+.sec-card li:hover{
+    background-color:white ;
+    color:rgb(59, 183, 255) ;
+    transform: scale(1.2);
 }
 .sec-card div{
     display: flex;
@@ -88,4 +96,5 @@ h4{
     color: rgb(59, 183, 255);
     background-color: #fff;
     border: none;
+    cursor: pointer;
 }
